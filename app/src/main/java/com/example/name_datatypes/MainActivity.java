@@ -38,10 +38,11 @@ public class MainActivity extends AppCompatActivity {
 
 
         //String.valueOf(myMoney);
-        display.setText("my firstname is "+firstname+ " "
-                +String.valueOf(myAge)+" and my money is "+String.valueOf(middleInitital)+" "
-                +lastname+ " \nand my age is "
-                +myAge+ ". \nI want my grade in TVL3 to be "
+        display.setText("my name is "+firstname+ " "+String.valueOf(middleInitital) +" "+lastname +
+
+                " \nand my age is " +String.valueOf(myAge)+
+
+                ". \nI want my grade in TVL3 to be "
                 +String.valueOf(myDreamTVLGrade));
 
         boolean amIMarried = false;
